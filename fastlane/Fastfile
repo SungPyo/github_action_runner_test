@@ -24,7 +24,8 @@ platform :ios do
 	build_app(scheme: "RunnerTest",
 		clean: true,
 		include_bitcode: true,
-		export_xcargs: "-allowProvisioningUpdates"
+		export_xcargs: "-allowProvisioningUpdates",
+		configuration: “Debug”
     	)
   end
 end
