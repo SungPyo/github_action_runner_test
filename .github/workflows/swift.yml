@@ -13,5 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Fastlane Install
+        run: brew install fastlane
       - name: CocoaPod Install
         run: pod install 
