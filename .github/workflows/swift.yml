@@ -16,4 +16,6 @@ jobs:
       - name: Fastlane Install
         run: brew install fastlane
       - name: CocoaPod Install
-        run: pod install 
+        run: pod install
+      - name: Build Fastlane
+        run: fastlane runner_test
